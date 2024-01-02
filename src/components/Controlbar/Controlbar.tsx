@@ -1,16 +1,10 @@
-import { NavbarContainer } from "./Navbar.styled";
-import MoodRadioIcon from "../../assets/images/mood-radio.png";
-import {
-  PauseFilled,
-  PlayFilled,
-  SkipBackFilled,
-  SkipForwardFilled,
-} from "@carbon/icons-react";
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
 import mySound from "../../assets/audio/test.mp3";
+import { ControlbarContainer } from "./Controlbar.styled";
+import { PauseFilled, PlayFilled, SkipBackFilled, SkipForwardFilled } from "@carbon/icons-react";
 
-function Navbar() {
+function Controlbar() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [playSound, soundData] = useSound(mySound);
 
@@ -20,20 +14,14 @@ function Navbar() {
 
   useEffect(() => {
     if (isPlaying) {
-        playSound();
-      } else {
-        soundData.stop();
+      playSound();
+    } else {
+      soundData.stop();
     }
-  }, [isPlaying, playSound, soundData])
+  }, [isPlaying, playSound, soundData]);
 
-  return (
-    <NavbarContainer>
-      <div>
-        <img src={MoodRadioIcon} alt="mood radio logo" />
-        <p>mood radio</p>
-      </div>
-
-      <div>
+  return <ControlbarContainer>
+    <div>
         <button>
           <SkipBackFilled />
         </button>
@@ -46,8 +34,7 @@ function Navbar() {
           <SkipForwardFilled />
         </button>
       </div>
-    </NavbarContainer>
-  );
+  </ControlbarContainer>;
 }
 
-export default Navbar;
+export default Controlbar;
