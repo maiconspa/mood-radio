@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mood-radio/static/css/main.71834d94.css",
+    "main.js": "/mood-radio/static/js/main.50fa72b2.js",
+    "static/js/845.aa146b8b.chunk.js": "/mood-radio/static/js/845.aa146b8b.chunk.js",
+    "static/js/787.5b503390.chunk.js": "/mood-radio/static/js/787.5b503390.chunk.js",
+    "static/media/test.mp3": "/mood-radio/static/media/test.4d5c26e20cc73fbe5b05.mp3",
+    "static/media/Poppins-Light.ttf": "/mood-radio/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/mood-radio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/mood-radio/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/mood-radio.png": "/mood-radio/static/media/mood-radio.913a25b8adb88ea8772f.png",
+    "index.html": "/mood-radio/index.html",
+    "main.71834d94.css.map": "/mood-radio/static/css/main.71834d94.css.map",
+    "main.50fa72b2.js.map": "/mood-radio/static/js/main.50fa72b2.js.map",
+    "845.aa146b8b.chunk.js.map": "/mood-radio/static/js/845.aa146b8b.chunk.js.map",
+    "787.5b503390.chunk.js.map": "/mood-radio/static/js/787.5b503390.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71834d94.css",
+    "static/js/main.50fa72b2.js"
+  ]
+}
