@@ -2,14 +2,14 @@
   "name": "mood-radio",
   "version": "0.1.2",
   "private": true,
-  "homepage": "http://maiconspa.github.io/mood-radio",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "npm run predeploy && gh-pages -d build"
+    "gh-pages-deploy": "npm run build && gh-pages -d build",
+    "firebase-deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "@carbon/icons-react": "^11.33.0",
